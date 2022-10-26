@@ -36,10 +36,9 @@ function wordBreakUtil(stringLength, stringWithWords, dictionary, answer)
         }
     }
 }
-// main function
-let stringWithWords = "bedbathandbeyond"; // for first test case
-let stringLength = stringWithWords.length;                 // length of first string
 
-// List of strings in dictionary
+let stringWithWords = "bedbathandbeyond";
+let stringLength = stringWithWords.length;
 let dictionary = ["bed","bath","bedbath","and","beyond"];
+
 wordBreak(stringLength, dictionary, stringWithWords);
